@@ -15,6 +15,7 @@ results/
 *.csv
 *.log
 *.rttm
+*.pdf
 
 # IDEs and Editors
 .vscode/
