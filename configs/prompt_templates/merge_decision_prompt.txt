@@ -1,0 +1,17 @@
+You are an expert audio linguist. Analyze the following potential diarization error.
+
+CONTEXT:
+{context_description}
+
+EVIDENCE:
+{evidence_list}
+
+TASK:
+Should these segments be MERGED (same speaker/continuous turn) or KEPT SEPARATE?
+
+Reply strictly in JSON format:
+{{
+    "action": "MERGE" or "KEEP",
+    "confidence": <float between 0.0 and 1.0>,
+    "reasoning": "<short explanation>"
+}}

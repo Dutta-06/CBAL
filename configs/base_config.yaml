@@ -1,0 +1,28 @@
+project_name: "cbal_local"
+
+paths:
+  base_dir: "."
+  audio_subdir: "data/audio"
+  transcript_dir: "results/transcripts"
+  output_dir: "results"
+
+models:
+  wavlm_repo: "microsoft/wavlm-base-plus-sv"
+  llm_repo: "google/gemma-3-4b-it"
+  llm_dtype: "bfloat16"
+  device: "cuda"
+  max_new_tokens: 512  
+  do_sample: false     
+
+thresholds:
+  acoustic_similarity: 0.9       
+  false_split_gap: 1.0            
+  min_segment_len_for_embedding: 0.3  
+  short_turn_max_duration: 1.5    
+  
+  min_confidence: 0.85            
+  min_confidence_confusion: 0.8  
+  min_confidence_short_turn: 0.85 
+  
+  max_allowed_gap_for_merge: 2.0  
+  min_allowed_sim_for_merge: 0.60  

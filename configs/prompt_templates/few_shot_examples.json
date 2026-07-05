@@ -1,0 +1,7 @@
+[
+    {
+        "type": "false_split",
+        "example": "Text: 'I think we should' ... 'go now.' (Gap: 0.1s)",
+        "decision": {"action": "MERGE", "confidence": 0.95}
+    }
+]

@@ -1,0 +1,9 @@
+librosa
+numpy
+pandas
+pyannote.audio
+PyYAML
+scipy
+setuptools
+tqdm
+transformers
