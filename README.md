@@ -1,7 +1,7 @@
 # CBAL: Context-Based Agentic Learning for Speaker Diarization Segmentation Refinement
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Paper: ACL 2026](https://img.shields.io/badge/Paper-ACL_2026-blue.svg)](#) <!-- Add paper link here when available -->
+[![Paper: ACL SRW 2026](https://img.shields.io/badge/Paper-ACL_SRW_2026-blue.svg)](#) <!-- Add paper link here when available -->
 
 **CBAL** is a training-free, post-processing framework designed to refine segmentation boundaries in diarized transcripts (such as those from Pyannote or NeMo). It repairs common structural errors like false splits, acoustic confusion, and short turn ambiguities by combining acoustic heuristics, LLM-based linguistic reasoning, and strict signal-level constraints to guarantee no transcript degradation (0% cpWER degradation).
 
@@ -71,13 +71,13 @@ The repository includes scripts to evaluate the safety and utility of the refine
 
 ## 📜 Citation
 
-If you use CBAL in your research, please cite our ACL 2026 paper:
+If you use CBAL in your research, please cite our ACL SRW 2026 paper:
 
 ```bibtex
 @inproceedings{dutta-vishwakarma-2026-cbal,
     title = "{CBAL}: Context-Based Agentic Learning for Speaker Diarization Segmentation Refinement",
     author = "Dutta, Odwitiyo and Vishwakarma, Dinesh Kumar",
-    booktitle = "Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)",
+    booktitle = "Proceedings of the Annual Meeting of the Association for Computational Linguistics: Student Research Workshop (ACL SRW)",
     year = "2026",
     publisher = "Association for Computational Linguistics",
 }
